@@ -1,7 +1,17 @@
+import { Box } from "@mui/material";
 import React from "react";
+import Exercises from "../Components/Exercises";
+import HeroBanner from "../Components/HeroBanner";
+import SearchExercises from "../Components/SearchExercises";
 
 const Home = () => {
-  return <div>gojh</div>;
+  return (
+    <Box>
+      <HeroBanner />
+      <SearchExercises />
+      <Exercises />
+    </Box>
+  );
 };
 
 export default Home;

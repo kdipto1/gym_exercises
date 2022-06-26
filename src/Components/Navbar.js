@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/Logo.png";
 
+
 const Navbar = () => {
   return (
     <Stack
@@ -34,7 +35,7 @@ const Navbar = () => {
           Home
         </Link>
         <a
-          href="#exercise"
+          href="#exercises"
           style={{ textDecoration: "none", color: "#3A1212" }}
         >
           Exercise
