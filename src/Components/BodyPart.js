@@ -4,11 +4,7 @@ import Icon from "../assets/icons/gym.png";
 
 const BodyPart = ({ item, bodyPart, setBodyPart }) => {
   return (
-    <Stack
-      type="button"
-      alignItems="center"
-      justifyContent="center"
-      className="bodyPart-card"
+    <Stack type="button" alignItems="center" justifyContent="center" className="bodyPart-card"
       sx={{
         borderTop: bodyPart === item ? "4px solid #ff2625" : "",
         backgroundColor: "#fff",
